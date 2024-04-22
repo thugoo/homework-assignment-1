@@ -1,3 +1,5 @@
+Task is described in the task_description.pdf file.
+
 ## Introduction
 
 This project contains a simple Python Django server with a pre-built local database and a React JS frontend server.
