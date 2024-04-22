@@ -1,0 +1,17 @@
+div {
+    margin-bottom: 6px;
+    align-items: center;
+}
+
+h2 {
+    font-size: x-large;
+    color: #fff;
+}
+
+input {
+    flex: auto;
+    border-style: solid;
+    border-color: #888889;
+    outline: none;
+    padding: 4;
+}

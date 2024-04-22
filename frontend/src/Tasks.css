@@ -1,0 +1,102 @@
+
+span {
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+th,
+td {
+    text-align: left;
+    font-size: medium;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+thead th {
+    top: 0px;
+    margin: 0 0 0 0;
+    background-color: #424242;
+}
+
+tr.even {
+    font-size: medium;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #fff;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+div.pagination {
+    font-size: medium;
+}
+
+/* Ascending-descending button styling */
+button.sort-button {
+    color: white;
+    border-color: rgb(204, 204, 204);
+    background-color: #424242;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* Multi-select filter styling */
+.optionContainer {
+    color: black
+}
+
+div.multiSelectContainer {
+    width: 50px;
+}
+
+input.searchBox {
+    width: 50%;
+    color: #424242;
+    font-size: medium;
+}
+
+div.optionListContainer {
+    width: 200%;
+}
+
+ul.optionContainer {
+    font-size:small
+}
+
+span.icon_down_dir:before {
+    font-size: large;
+    content: "🡣";
+}
+
+/* Date filter styling */
+div.react-date-picker__wrapper {
+    border-color: rgb(204, 204, 204);
+}
+
+input.react-date-picker__inputGroup__input {
+    color: white
+}
+
+svg.react-date-picker__calendar-button__icon {
+    stroke:rgb(204, 204, 204)
+}
+
+svg.react-date-picker__clear-button__icon {
+    stroke:rgb(204, 204, 204)
+}
+
+div.react-date-picker__calendar {
+    inset: 100% auto auto -123.5% !important;
+    color: black;
+}
+
+span.react-calendar__navigation__label__labelText {
+    color: black;
+}

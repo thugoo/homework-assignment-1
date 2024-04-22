@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.1.7"
+django-cors-headers = "*"
+djangorestframework = "*"
+djangorestframework-filters = "==1.0.0.dev2"
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
+[pipenv]
+allow_prereleases = true
